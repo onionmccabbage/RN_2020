@@ -1,0 +1,64 @@
+React Native - May 2019 Toby Dussek
+
+Monday
+> current experience: Android, Objective-C/Swift etc.
+> what you want from this course
+> make sure everything we need is installed
+> overview of React Native: build an app
+  see https://bit.ly/2HEcwlQ
+> Virtual Machines, Real Machines and versions of Android
+- good architecture: encapsulate, decouple, API
+- components
+- jsx
+> MVC
+> immutable props and mutable state
+- life-cycle and other events
+> after lunch review exercise
+> layout, buttons, touchables
+> Lists, scroll and FlatList
+- how to get external data: the fetch API
+
+Tuesday
+> build a fetch solution
+> controlled components
+> platform-specific components
+> navigation
+> debugging: console.warn/console.error...
+> what is @flow
+> performance monitor
+- react native bridge
+> after lunch review exercise
+  implement fetch - explore async
+  write the fetch as a service
+> example using redux
+> architecture
+
+Wednesday
+> final architecture
+> local data storage: sqlLite persist and retrieve data locally on device
+  performance, resources, device might kill off slow or heavy app...
+  see links here: https://pastebin.com/ZX4ksQV1
+  for https://github.com/blefebvre/react-native-sqlite-demo we must fix problem in
+  manifest file - it is missing a close tag
+  "react-native": "0.59.8"
+  My working version of SQLite project is here: https://bit.ly/2HI5QD9
+> testing with jest
+  assertions
+  snapshots
+  https://github.com/facebook/react-native/wiki/Tests
+  https://docs.reactnativestarter.com/testing
+  https://jestjs.io/docs/en/getting-started.html
+> after lunch review exercise
+> specific device: e.g. bar-code scanners on Android
+  can we access other Java libraries, or Xamarin etc. libraries?
+  can we call intent for native apps
+	see the docs and https://hub.packtpub.com/using-native-sdks-and-libraries-react-native/
+> preparing for production
+
+> production
+  Inline Requires
+- end of course evaluation
+- all the course assets available...
+
+
+free book https://addyosmani.com/resources/essentialjsdesignpatterns/book/

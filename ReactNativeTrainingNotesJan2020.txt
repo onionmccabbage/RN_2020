@@ -1,0 +1,58 @@
+
+	React Native - Mon 13-Wed 15 January 2020
+
+
+For React-Navigation we also need:
+react-native-gesture-handler
+react-native-reanimated
+react-native-screens
+react-native-safe-area-context
+
+Monday
+> Welcome and intro
+> prove the path: build an initial app and run on device/emulator
+> react-native init myApp
+> react-native run-android | react-native run-ios
+> Basics: layout, interaction, style, Flex, FlatList
+> Expo:
+> Navigation:
+> After lunch: review exercise
+> running on actual devices and on emulators
+
+Tuesday
+- initialize some apps we will need for today
+- Accessing device features: torch
+- Working with user input: TextInput
+- review 'controlled components' idea
+- Revisit touchables
+- Working with the Fetch API and remote https end-points
+- Native modules (Android Java/iOS objectiveC or Swift)
+- Persisting data on the client: using Async Storage
+- After lunch review exercise
+- Platform-specific native features
+- invoking genuine native code...
+> the files, tools and build-chain, also production etc. (apk)
+- Inspecting, Profiling and performance optimization
+
+Wednesday
+> eject from CRNA and via Expo
+> fixed async store: sample code here: https://pastebin.com/ukBYsLb0
+> persisting data with sql: download app here https://tinyurl.com/v5vnlvw
+- Ignite Templating https://github.com/infinitered/ignite
+> React Native 'Tester' 
+  https://github.com/facebook/react-native/tree/master/RNTester
+- Testing: snapshot testing, unit testing and e2e testing
+- Jest https://github.com/facebook/jest/tree/master/examples/react-native
+- Detox https://github.com/wix/Detox/tree/master/examples/demo-react-native
+- Appium https://github.com/appium/appium/blob/master/docs/en/about-appium/getting-started.md
+- Enzyme Component Testing 
+  https://airbnb.io/enzyme/docs/guides/react-native.html
+  https://github.com/airbnb/enzyme
+- over lunch: explore downgrading my gradle - then show Ignite template
+- review
+- Platform-specific native features
+- deploy to Apple App Store/Google Play
+  react-native run-ios --configuration release
+  react-native run-android --variant=release
+- all my code available
+- end of course evaluations

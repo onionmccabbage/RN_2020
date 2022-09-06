@@ -1,0 +1,30 @@
+Review 3: React Native  see  https://pastebin.com/8BPc4ydV
+======================
+Download and unzip some assets from 'https://bit.ly/2DRdFGQ' (case sensitive)
+In a new React Native App create a view containing a FlatList and show some data from 'data/gallery/photos.json'. The easiest way is just to copy a subset of about 12 data members from the json text into a stateful model inside App.js. (You can add more data members to this later)
+
+Write a custom component which will display *text* data for one of the photos
+  e.g. gallery[0].desc
+
+When you are comfortable showing data for one member of the collection, implement a FlatList to show text data for all of the data members.
+
+Use Inspect and Profile tools in the app as you develop it. For example, see if using a different data structure changes the memory use or speed of the app
+If time, create separate classes for the renderer and for the data model
+Explore the performance changes this brings
+
+When it's working, use 'npm test' to check the application snapshot remains as expected as you develop your code and individual components
+You will need to update the snapshot as required
+Also make some test assertions (see https://jestjs.io/docs/en/using-matchers)
+
+Optional
+--------
+Offer a way to edit the photo description text and persist the textual data on the device. You could use AsyncStore or SQLite
+
+Bring some style to the design and layout (e.g. use flexbox)
+
+Explore tests to check the flatlist exists and contains the data members you expect (see https://docs.reactnativestarter.com/testing)
+
+Declare two views and place them both on screen, one above the other
+Touching an item in the FlatList in one component should show the details in the other component
+
+How can you show the actual images in the list, rather than just text?

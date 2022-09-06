@@ -1,0 +1,22 @@
+React Native Review Exercise 1 see https://pastebin.com/rpLtf9as
+==============================
+Create a new React Native app and explore layout, flex dimensions and flexbox as discussed in the tutorial:
+https://facebook.github.io/react-native/docs/height-and-width
+(skip the fixed dimensions bit)
+
+You should be able to copy the sample code from the website and implement it in your App.js file
+
+As well as the code shown in the tutorial, try layouts of your own. 
+For example, try to create flex layouts with:
+- two equal sized Views and one View filling the remainder of the screen
+- a small View along the top and a small View along the bottom, with two Views filling the remainder of the screen
+
+Use Flexbox to create a simple layout that fills the whole screen, with a top, middle and bottom, where the middle is split three across (or any other layout you like)
+
+Implement a simple FlatList as per the tutorial website
+https://facebook.github.io/react-native/docs/using-a-listview
+
+Optional
+--------
+Declare another custom components containing some text and an image. Pass a 'title' property into your text/image component and display in the view along with the other components
+Implement navigation between the component views

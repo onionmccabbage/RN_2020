@@ -1,0 +1,33 @@
+Review 2
+========
+Use https://swapi.dev/api to build a 'Star Wars' application
+Provide a 'category' drop-down list with options for 'people', 'planets', 'species' or 'starships'
+e.g.
+<select id='category'>
+    <option value='people'>People</option>
+    <option value='planets'>Planets</option>
+    <option value='species'>Species</option>
+    <option value='starships'>Starships</option>
+</select>
+
+Also provide a numeric input between 1 and 3
+	e.g. <input type="number" min="1" max="3" required/>
+Provide a button which when clicked makes a 'fetch' call to 
+	`https://swapi.dev/api/${category}/${num}/` 
+
+Populate a model when the data is returned
+For every request, show the returned 'name' property
+
+NOTE: several requests are broken, such as https://swapi.dev/api/vehicles/2
+You should catch these errors and handle them gracefully
+
+Optional
+========
+Architect the app in modules, including a separate module for the 'fetch' service
+Conditionally show other returned data members. 
+So for people you could show 'eye color' and 'height'
+   for planets you could show 'population'
+
+Super Optional
+==============
+For most result sets, there is a collection of films. Make a further request to get information about the first film in any result set and show a few of the film data members in the page.

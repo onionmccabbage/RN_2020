@@ -1,0 +1,30 @@
+React Native Review Exercise 2 see https://pastebin.com/TnCRzdSi
+============================== 
+Begin a new React Native app and import react-navigation into it (plus other dependencies)
+Provide a screen where the user can enter 'city' and 'country' values
+Also provide a button on the same screen
+Touching the button should invoke a service which makes a call to OpenWeatherMap (using fetch)
+
+  `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&APPID=48f2d5e18b0d2bc50519b58cce6409f1`
+
+When the JSON is returned, populate a data model with properties such as the weather description and temperature
+	e.g. description = returnedJson.weather[0].description
+Show the description and temperature on the screen
+
+You need to decide which data should be passed as props and/or state
+Aim for a modular architecture where classes are in separate files, using export and import statements
+
+Apply some style to your component via stylesheet.create()
+
+If time, create a second screen to show the description and temperature.
+In the event that weather data is obtained, automatically navigate to this new screen, and provide a navigation route back to the first screen
+
+Optional
+--------
+Show the wind speed and direction (and other weather info as you see fit)
+For each request, append the weather results to an array. 
+Show this historical array as a flatlist in a new view if the user chooses to navigate to it. 
+Touching a data member in this view should navigate back to the first view, and should put the city and country values into the fields. 
+Thus the user can easily make a fresh call for the latest weather
+See if you can implement Redux to manage this app
+

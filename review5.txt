@@ -1,0 +1,25 @@
+Review Exercise 5
+=================
+Build a weather app: the user enters a city and a country to retrieve a weather report
+When the user enters a valid city and country (2-3 letter code) call a service
+In the service, invoke openweathermap.org like this:
+
+http://api.openweathermap.org/data/2.5/weather?q=hull,gb&APPID=48f2d5e18b0d2bc50519b58cce6409f1
+
+Replace hull,uk with city and country entered by the user
+
+Familiarize yourself with the returned weather JSON
+Use the loaded data to populate an instance of a Weather class
+  e.g.  myWeatherClassInstance.weatherDescription = this.weatherReport.weather[0].description
+
+Remember to convert temperature to Celcius by subtracting 273 (e.g. write a utility function)
+
+Optional
+--------
+Use //@flow to implement type-safe coding. Also try using propTypes (remember to import)
+Use a lifecycle event to make a weather call when the app homepage first loads, using default city/country values
+Add each weather report to an array of weather reports, along with a time-stamp
+Show the array of weather reports in a FlatList within separate component
+Implement routing to navigate between the weather form and the historical weather reports
+Clicking a historical report should enter the city and country back into the fields
+

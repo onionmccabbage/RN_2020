@@ -1,0 +1,14 @@
+Review Exercise 4
+=================
+Build an app where the user can choose a category and a number then retrieve data from either typicode or swapi (as in previous exercises using fetch)
+Show a few retrieved data members in a separate view. Include navigation back to the first page
+
+Provide navigation via buttons or via touchables
+
+Optional
+Every time a query is made, add the query terms to a collection (e.g. an array)
+Provide another view which lists the queries that have been made. Clicking should make a fresh query with those historical parameters
+
+Aim for separate components, which you import into App.js
+Implement Redux throughout your app
+  refer to https://medium.com/@aaronvb/a-simple-react-native-redux-example-b8e22a6e93d0
